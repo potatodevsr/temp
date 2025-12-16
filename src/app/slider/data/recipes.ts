@@ -16,6 +16,5 @@ export const recipes: Recipe[] = Array.from({ length: 12 }).map((_, i) => {
         timeLabel: "20 mins",
         servingsLabel: "4 servings",
         imageUrl: `/images/recipes/${imageIndex}.png`,
-        badge: n % 2 === 0 ? "25" : undefined,
     }
 })

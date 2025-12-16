@@ -10,6 +10,7 @@ export default function RecipeCard({ recipe }: Props) {
       tabIndex={0}
       aria-label={recipe.title}
     >
+      
       <Image
         src={recipe.imageUrl}
         alt={recipe.title}
@@ -20,13 +21,6 @@ export default function RecipeCard({ recipe }: Props) {
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/15 to-transparent" />
-
-      {recipe.badge ? (
-        <div className="absolute right-3 top-3 h-10 w-10 rounded-full bg-white/90 text-center text-sm font-semibold leading-10 text-neutral-900 shadow ring-1 ring-black/10">
-          {recipe.badge}
-        </div>
-      ) : null}
-
       <div className="absolute bottom-3 left-3 right-3">
         <div className="text-white">
           <div className="text-sm font-semibold tracking-wide">

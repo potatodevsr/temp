@@ -1,7 +1,6 @@
 "use client";
 
 import SectionTitle from "./SectionTitle";
-import RecipeCarousel from "./RecipeCarousel";
 import { recipes } from "@/app/slider/data/recipes";
 import RecipeCard from "./RecipeCard";
 
