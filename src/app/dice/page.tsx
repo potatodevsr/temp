@@ -190,7 +190,7 @@ export default function DiceProbability() {
               disabled={isRolling}
               className="px-8 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors shadow-lg"
             >
-              {isRolling ? "กำลังทอด..." : "ทอดลูกเต้า"}
+              {isRolling ? "กำลังทอด..." : "ทอดลูกเต๋า"}
             </button>
             <button
               onClick={reset}
