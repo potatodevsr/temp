@@ -1,5 +1,4 @@
-import RecommendedRecipesSection from "@/components/RecommendedRecipesSection";
-
+import RecommendedRecipesSection from "./RecommendedRecipesSection";
 
 export default function Home() {
   return (
