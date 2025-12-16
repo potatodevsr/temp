@@ -20,28 +20,28 @@ function FloatingNav() {
 
   const pages = [
     {
+      href: "/slider",
+      label: "ข้อ 1 Recipe Slider",
+      icon: ImageIcon,
+      color: "bg-orange-500",
+    },
+    {
       href: "/books",
-      label: "Books System",
+      label: "ข้อ 6 Books System",
       icon: BookOpen,
       color: "bg-blue-500",
     },
     {
-      href: "/dice",
-      label: "Dice Probability",
-      icon: Dices,
-      color: "bg-purple-500",
-    },
-    {
       href: "/venn",
-      label: "Venn Diagram",
+      label: "ข้อ 9 Venn Diagram",
       icon: Circle,
       color: "bg-green-500",
     },
     {
-      href: "/slider",
-      label: "Recipe Slider",
-      icon: ImageIcon,
-      color: "bg-orange-500",
+      href: "/dice",
+      label: "ข้อ 12 Dice Probability",
+      icon: Dices,
+      color: "bg-purple-500",
     },
   ];
 
